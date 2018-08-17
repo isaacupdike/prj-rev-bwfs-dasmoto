@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: "Helvetica", sans-serif;
+}
+h1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+
+  /* NOTE: I could not figure out how to call the background pattern from my local images folder.This is what I tried: background-image:url(".\pattern.jpeg") as well as: background-image:image(".\pattern.jpeg"). I know I am forgetting something and would love some clarification on that.  Thanks!
+   */
+   
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  margin: auto;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+#brushes-color {
+  background-color: mediumspringgreen;
+}
+#frames-color {
+  background-color: lightcoral;
+}
+#paint-color {
+  background-color: skyblue;
+}
+.blue-bold-text {
+  color: blue;
+  font-weight: bold;
+}
